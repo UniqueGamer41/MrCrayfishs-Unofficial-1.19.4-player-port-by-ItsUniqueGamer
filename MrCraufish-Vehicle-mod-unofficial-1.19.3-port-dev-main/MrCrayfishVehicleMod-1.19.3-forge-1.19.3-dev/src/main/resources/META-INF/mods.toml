@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="GNU General Public License 3.0"
+issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishVehicleMod/issues"
+
+[[mods]]
+modId="vehicle"
+version="0.46.3-19.4"
+displayName="MrCrayfish's Vehicle Mod"
+updateJSONURL="https://mrcrayfish.com/modupdatejson?id=vehicle"
+displayURL="https://mrcrayfish.com/mods?id=vehicle"
+logoFile="vehicle_mod.png"
+credits="Mrcrayfish [ owner/author ], ItsUniqueGamer [ responsible to port mod to new versions]"
+authors="MrCrayfish, ItsUniqueGamer"
+description="A mod that adds vehicles into Minecraft!"
+
+[[dependencies.vehicle]]
+modId="forge"
+mandatory=true
+versionRange="[45.3.3,45.3.8,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.vehicle]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.4,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.vehicle]]
+modId="framework"
+mandatory=true
+versionRange="[0.2.3,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.vehicle]]
+modId="posture"
+mandatory=true
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"

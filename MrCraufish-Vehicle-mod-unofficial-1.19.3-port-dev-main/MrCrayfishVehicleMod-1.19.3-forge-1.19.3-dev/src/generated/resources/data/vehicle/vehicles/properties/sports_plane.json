@@ -1,0 +1,138 @@
+{
+  "bodyTransform": {
+    "translate": [
+      0.0,
+      0.0,
+      -8.0
+    ]
+  },
+  "camera": {
+    "distance": 9.0,
+    "position": [
+      0.0,
+      2.0,
+      0.0
+    ]
+  },
+  "canBePainted": true,
+  "cosmetics": [
+    {
+      "id": "vehicle:wings",
+      "offset": [
+        0.0,
+        20.0,
+        -7.0
+      ]
+    },
+    {
+      "actions": [
+        {
+          "axis": "z",
+          "id": "vehicle:rotate",
+          "scale": 1.0,
+          "source": "vehicle:propeller"
+        }
+      ],
+      "id": "vehicle:propeller",
+      "offset": [
+        0.0,
+        14.0,
+        31.0
+      ]
+    },
+    {
+      "id": "vehicle:seat",
+      "offset": [
+        0.0,
+        8.0,
+        0.0
+      ]
+    }
+  ],
+  "displayTransform": {
+    "scale": 0.85
+  },
+  "extended": {
+    "vehicle:plane": {
+      "elevatorSensitivity": 0.075,
+      "flapSensitivity": 0.1,
+      "maxTurnAngle": 2.0
+    },
+    "vehicle:powered": {
+      "energyCapacity": 75000.0,
+      "energyConsumptionPerTick": 1.0,
+      "enginePower": 24.0,
+      "engineSound": "vehicle:entity.sports_plane.engine",
+      "engineType": "vehicle:large_motor",
+      "frontAxleOffset": 20.25,
+      "fuelFillerTransform": {
+        "rotation": [
+          0.0,
+          -112.5,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          -4.35,
+          6.0,
+          -6.0
+        ]
+      },
+      "ignitionTransform": {
+        "rotation": [
+          -67.5,
+          0.0,
+          0.0
+        ],
+        "scale": 0.5,
+        "translate": [
+          0.0,
+          3.75,
+          12.5
+        ]
+      },
+      "maxSteeringAngle": 25.0,
+      "rearAxleOffset": 1.5
+    }
+  },
+  "seats": [
+    {
+      "driver": true,
+      "position": [
+        0.0,
+        6.0,
+        0.0
+      ]
+    }
+  ],
+  "wheels": [
+    {
+      "autoScale": true,
+      "axle": "front",
+      "offset": [
+        0.0,
+        -0.902,
+        26.827
+      ],
+      "scale": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "offset": [
+        15.5,
+        0.0,
+        -5.5
+      ]
+    },
+    {
+      "offset": [
+        -15.5,
+        0.0,
+        -5.5
+      ]
+    }
+  ]
+}

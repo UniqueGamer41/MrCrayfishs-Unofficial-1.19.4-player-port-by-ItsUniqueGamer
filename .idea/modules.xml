@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MrCrayfishVehicleMod-1.19.3-forge-1.19.3-dev.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MrCrayfishVehicleMod-1.19.3-forge-1.19.3-dev.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MrCrayfishVehicleMod-1.19.3-forge-1.19.3-dev.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MrCrayfishVehicleMod-1.19.3-forge-1.19.3-dev.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/a new begining.iml" filepath="$PROJECT_DIR$/.idea/a new begining.iml" />
+    </modules>
+  </component>
+</project>
