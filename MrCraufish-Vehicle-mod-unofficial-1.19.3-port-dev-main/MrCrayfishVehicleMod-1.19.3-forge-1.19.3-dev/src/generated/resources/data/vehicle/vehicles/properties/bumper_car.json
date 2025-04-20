@@ -22,7 +22,8 @@
       "engineCapacity": 500,
       "energyConsumptionPerTick": 0.155,
       "enginePower": 12.0,
-      "engineType": "vehicle:electric_motor"
+      "engineType": "vehicle:electric_motor",
+      "engineSound": "vehicle:entity.bumper_car.engine"
 
     }
   },

@@ -12,6 +12,7 @@
     "vehicle:powered": {
       "enginePower": 8.0,
       "engineType": "vehicle:small_motor",
+      "engineSound": "vehicle:entity.atv.engine",
       "frontAxleOffset": 10.5,
       "maxEnginePitch": 1.6,
       "minEnginePitch": 0.8,
